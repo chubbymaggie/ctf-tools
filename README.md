@@ -16,6 +16,7 @@ Installers for the following tools are included:
 | binary | [checksec](https://github.com/slimm609/checksec.sh) | Check binary hardening settings. | <!--tool--><!--test-->
 | binary | [codereason](https://github.com/trailofbits/codereason) | Semantic Binary Code Analysis Framework. | <!--tool--><!--failing-->
 | binary | [crosstool-ng](http://crosstool-ng.org/) | Cross-compilers and cross-architecture tools. | <!--tool--><!--no-test-->
+| binary | [cross2](http://kozos.jp/books/asm/asm.html) | A set of cross-compilation tools from a Japanese book on C. | <!--tool--><!--no-test-->
 | binary | [elfkickers](http://www.muppetlabs.com/~breadbox/software/elfkickers.html) | A set of utilities for working with ELF files. | <!--tool--><!--test-->
 | binary | [elfparser](http://www.elfparser.com/) | Quickly determine the capabilities of an ELF binary through static analysis. | <!--tool--><!--test-->
 | binary | [evilize](http://www.mathstat.dal.ca/~selinger/md5collision/) | Tool to create MD5 colliding binaries | <!--tool--><!--test-->
@@ -24,13 +25,14 @@ Installers for the following tools are included:
 | binary | [pathgrind](https://github.com/codelion/pathgrind) | Path-based, symbolically-assisted fuzzer. | <!--tool--><!--test-->
 | binary | [peda](https://github.com/longld/peda) | Enhanced environment for gdb. | <!--tool--><!--test-->
 | binary | [preeny](https://github.com/zardus/preeny) | A collection of helpful preloads (compiled for many architectures!). | <!--tool--><!--no-test-->
-| binary | [pwntools](https://github.com/Gallopsled/pwntools) | Useful CTF utilities. | <!--tool--><!--test-->
+| binary | [pwntools](https://github.com/Gallopsled/pwntools) | Useful CTF utilities. | <!--tool--><!--no-test-->
 | binary | [python-pin](https://github.com/blankwall/Python_Pin) | Python bindings for pin. | <!--tool--><!--test-->
 | binary | [qemu](http://qemu.org) | Latest version of qemu! | <!--tool--><!--times-out-->
 | binary | [qira](http://qira.me) | Parallel, timeless debugger. | <!--tool--><!--test-->
 | binary | [radare2](http://www.radare.org/) | Some crazy thing crowell likes. | <!--tool--><!--test-->
 | binary | [rp++](https://github.com/0vercl0k/rp) | Another gadget finder. | <!--tool--><!--test-->
 | binary | [shellnoob](https://github.com/reyammer/shellnoob) | Shellcode writing helper. | <!--tool--><!--test-->
+| binary | [shellsploit](https://github.com/b3mb4m/shellsploit-framework) | Shellcode development kit. | <!--tool--><!--test-->
 | binary | [snowman](https://github.com/yegord/snowman) | Cross-architecture decompiler. | <!--tool--><!--test-->
 | binary | [taintgrind](https://github.com/wmkhoo/taintgrind) | A valgrind taint analysis tool. | <!--tool--><!--test-->
 | binary | [villoc](https://github.com/wapiflapi/villoc) | Visualization of heap operations. | <!--tool--><!--test-->
@@ -64,7 +66,7 @@ Installers for the following tools are included:
 | web | [sqlmap](http://sqlmap.org/) | SQL injection automation engine. | <!--tool--><!--test-->
 | web | [subbrute](https://github.com/TheRook/subbrute) | A DNS meta-query spider that enumerates DNS records, and subdomains. | <!--tool--><!--test-->
 | stego | [sound-visualizer](http://www.sonicvisualiser.org/) | Audio file visualization. | <!--tool--><!--failing-->
-| stego | [steganabara](http://www.caesum.com/handbook/stego.htm) | Antoher image steganography solver. | <!--tool--><!--test-->
+| stego | [steganabara](http://www.caesum.com/handbook/stego.htm) | Another image steganography solver. | <!--tool--><!--test-->
 | stego | [stegdetect](http://www.outguess.org/) | Steganography detection/breaking tool. | <!--tool--><!--test-->
 | stego | [stegsolve](http://www.caesum.com/handbook/stego.htm) | Image steganography solver. | <!--tool--><!--test-->
 | android | [apktool](https://ibotpeaches.github.io/Apktool/) | Dissect, dis-assemble, and re-pack Android APKs | <!--tool--><!--test-->
@@ -151,7 +153,7 @@ To add a tool (say, named *toolname*), do the following:
 
 1. Create a `toolname` directory.
 2. Create an `install` script.
-3. (optional) if special uninstall steps are reuired, create an `uninstall` script.
+3. (optional) if special uninstall steps are required, create an `uninstall` script.
 
 ### Install Scripts
 
